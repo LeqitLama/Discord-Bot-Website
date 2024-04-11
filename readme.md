@@ -10,16 +10,6 @@
 
 This template is designed to help you launch your Discord bot with a professional-looking website in no time. It's built with ease of use and customization in mind, ensuring you can adapt it to fit your bot's branding and functionality without any hassle.
 
-**Table of Contents**
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Customizing](#customizing)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Features
 
@@ -43,3 +33,20 @@ This template is designed to help you launch your Discord bot with a professiona
 1. Install the Index.html 
 
 2. Open it and edit your Bot Name and Infos (or Icons)
+
+## Roadmap
+
+Here are some of the features and improvements we're planning for the future:
+
+- [x] Initial release with all need functionality
+- [ ] **v2.0.0 Features** - Planned for Q3 2024
+  - [ ] Multi-language support
+  - [ ] Dark Mode?
+- [x] **Performance Enhancements** - Ongoing
+  - [x] Reduce page load time
+  - [x] Optimize image assets
+- [ ] **Community Features** - Tell me if I should add it?
+  - [ ] User forums
+  - [x] Feedback and suggestion system
+
+Please note that the roadmap is subject to change based on user feedback and project priorities. Keep an eye on this section for the latest updates!
