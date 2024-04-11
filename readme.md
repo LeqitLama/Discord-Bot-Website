@@ -39,9 +39,6 @@ This template is designed to help you launch your Discord bot with a professiona
 Here are some of the features and improvements we're planning for the future:
 
 - [x] Initial release with all need functionality
-- [ ] **v2.0.0 Features** - When we hit 30 Stars!
-  - [ ] Multi-language support
-  - [ ] Dark Mode
 - [x] **Performance Enhancements** - Ongoing
   - [x] Reduce page load time
   - [x] Optimize image assets
@@ -50,3 +47,16 @@ Here are some of the features and improvements we're planning for the future:
   - [x] Feedback and suggestion system
 
 Please note that the roadmap is subject to change based on user feedback and project priorities. Keep an eye on this section for the latest updates!
+
+## Star Goals
+
+We're incredibly grateful for all the stars and support from our community! GitHub stars help increase our project's visibility and show us how many people value our work. To make our development journey more collaborative and open, we've set a few star milestones that will trigger special actions from our side:
+
+- **50 Stars**: We'll release a set of custom themes for the website template.
+- **150 Stars**: We'll host a community poll to decide on the next big feature.
+- **250 Stars**: We'll make an Giveaway, where we create a complete Custom Website for one of you!
+
+If you like our project and want to see it grow, consider giving us a ⭐️ [star on GitHub](https://github.com/LeqitLama/Discord-Bot-Website).
+
+Let's achieve these goals together and make this project even more amazing!
+
