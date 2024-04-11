@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leqit Music Bot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.0/dist/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <style>
+        .glow-on-hover {
+            position: relative;
+            background: #2563eb;
+            border: none;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease 0s;
+            box-shadow: 0 0 5px #1d4ed8, 0 0 25px #1d4ed8, 0 0 50px #1d4ed8, 0 0 100px #1d4ed8;
+        }
+        .glow-on-hover:hover {
+            box-shadow: 0 0 10px #1d4ed8, 0 0 50px #1d4ed8, 0 0 100px #1d4ed8, 0 0 200px #1d4ed8;
+        }
+        /* Custom styles */
+        .feature-icon {
+            display: inline-block;
+            font-size: 2rem;
+            margin-right: 0.5rem;
+            color: #f59e0b; /* Tailwind orange-500 */
+        }
+
+        .underline-effect {
+    position: relative;
+    display: inline-block;
+}
+
+.underline-effect::after {
+    content: '';
+    position: absolute;
+    bottom: -5px; /* Adjust the distance from the text */
+    left: 0;
+    width: 100%;
+    height: 3px; /* Thickness of the underline */
+    background: #2563eb; /* Blue color */
+    border-radius: 5px; /* Adds curvature to the underline */
+    transition: width 0.3s ease-in-out;
+}
+
+.underline-effect:hover::after {
+    width: 110%; /* Optional: Increase width on hover for a dynamic effect */
+    left: -5%; /* Center the extended line */
+}
+
+.red-underline {
+    position: relative;
+    display: inline-block;
+}
+
+.red-underline::after {
+    content: '';
+    position: absolute;
+    bottom: -5px; /* Adjust the vertical position of the underline */
+    left: 0;
+    width: 100%;
+    height: 2px; /* Thickness of the underline */
+    background-color: rgb(223, 134, 0); /* Color of the underline */
+    border-radius: 1px; /* Optional: Adds a slight curve to the corners */
+    transition: all 0.3s ease-in-out; /* Smooth transition for any changes */
+}
+
+.red-underline:hover::after {
+    width: 110%; /* Optional: Increase width on hover for a dynamic effect */
+    left: -5%; /* Center the extended line */
+}
+
+
+    
+
+
+    </style>
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-300">
+
+    
+    
+
+    
+    <header class="bg-gray-800 body-font shadow w-full">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+                <i class="fas fa-music fa-lg mr-2"></i>
+                <span class="ml-3 text-xl">Bot Template</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a href="#" class="mr-5 hover:text-blue-300">Home</a>
+                <a href="#" class="mr-5 hover:text-blue-300">Features</a>
+                <a href="#" class="mr-5 hover:text-blue-300">About</a>
+            </nav>
+        <button class="glow-on-hover tilt-effect inline-flex items-center text-white bg-blue-600 border-0 py-2 px-6 focus:outline-none rounded text-lg transition-all duration-300 ease-in-out hover:bg-blue-700">Invite Me Now</button>
+        </div>
+    </header>
+
+    
+    <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+      <div class="text-center lg:w-2/3 w-full">
+        <h1 class="title-font sm:text-6xl text-3xl mb-4 font-medium text-white">
+            The <span class="underline-effect">Ultimate</span> Bot Experience for Discord
+        </h1>        
+          <p class="mb-8 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="flex justify-center">
+            <button class="glow-on-hover tilt-effect inline-flex items-center text-white bg-blue-600 border-0 py-2 px-6 focus:outline-none rounded text-lg transition-all duration-300 ease-in-out hover:bg-blue-700">Invite Me Now</button>
+          </div>
+      </div>
+  </div>
+
+  
+<section class="text-gray-300 body-font mt-12" style="padding-top: 5rem;">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -m-4">
+      
+      <div class="p-4 lg:w-1/4 md:w-1/2" data-aos="fade-up" data-aos-delay="200">
+        <div class="h-full bg-gray-800 bg-opacity-40 rounded overflow-hidden shadow-lg">
+          <div class="p-6">
+            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-orange-500 text-white mb-4">
+              <i class="fas fa-music"></i>
+            </div>
+            <h2 class="title-font text-lg font-medium text-orange-400 mb-1">Your Feature</h2>
+            <p class="leading-relaxed mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="p-4 lg:w-1/4 md:w-1/2" data-aos="fade-up" data-aos-delay="400">
+        <div class="h-full bg-gray-800 bg-opacity-40 rounded overflow-hidden shadow-lg">
+          <div class="p-6">
+            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-orange-500 text-white mb-4">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h2 class="title-font text-lg font-medium text-orange-400 mb-1">Your 2 Feature</h2>
+            <p class="leading-relaxed mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+     
+      <div class="p-4 lg:w-1/4 md:w-1/2" data-aos="fade-up" data-aos-delay="600">
+        <div class="h-full bg-gray-800 bg-opacity-40 rounded overflow-hidden shadow-lg">
+          <div class="p-6">
+            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-orange-500 text-white mb-4">
+              <i class="fas fa-star"></i>
+            </div>
+            <h2 class="title-font text-lg font-medium text-orange-400 mb-1">3 Feature</h2>
+            <p class="leading-relaxed mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="p-4 lg:w-1/4 md:w-1/2" data-aos="fade-up" data-aos-delay="800">
+        <div class="h-full bg-gray-800 bg-opacity-40 rounded overflow-hidden shadow-lg">
+          <div class="p-6">
+            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-orange-500 text-white mb-4">
+              <i class="fas fa-video"></i>
+            </div>
+            <h2 class="title-font text-lg font-medium text-orange-400 mb-1">4 Feature</h2>
+            <p class="leading-relaxed mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="text-gray-300 body-font mt-12">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap justify-center -m-4">
+       
+        <div class="p-4 lg:w-1/4 md:w-1/2" data-aos="fade-up" data-aos-delay="100">
+          <div class="h-full bg-gray-800 bg-opacity-40 rounded overflow-hidden shadow-lg text-center">
+            <div class="p-6">
+              <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-orange-500 text-white mb-4">
+                <i class="fas fa-server"></i>
+              </div>
+              <h2 class="title-font text-lg font-medium text-orange-400 mb-1">Servers</h2>
+              <p class="leading-relaxed mb-5">2,500+</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="p-4 lg:w-1/4 md:w-1/2" data-aos="fade-up" data-aos-delay="200">
+          <div class="h-full bg-gray-800 bg-opacity-40 rounded overflow-hidden shadow-lg text-center">
+            <div class="p-6">
+              <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-orange-500 text-white mb-4">
+                <i class="fas fa-terminal"></i>
+              </div>
+              <h2 class="title-font text-lg font-medium text-orange-400 mb-1">Commands Used</h2>
+              <p class="leading-relaxed mb-5">1 Million+</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="p-4 lg:w-1/4 md:w-1/2" data-aos="fade-up" data-aos-delay="300">
+          <div class="h-full bg-gray-800 bg-opacity-40 rounded overflow-hidden shadow-lg text-center">
+            <div class="p-6">
+              <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-orange-500 text-white mb-4">
+                <i class="fas fa-clock"></i>
+              </div>
+              <h2 class="title-font text-lg font-medium text-orange-400 mb-1">Online Time</h2>
+              <p class="leading-relaxed mb-5">99.9% Uptime</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+<section class="text-gray-300 bg-gray-900 body-font">
+    <div class="container px-5 py-24 mx-auto">
+        <h2 class="text-3xl font-medium title-font text-center text-orange-500 mb-12">What Our <span class="red-underline">Users</span> Say About [Your Bot ]</h2>
+     
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+        
+          <div class="swiper-slide">
+            <div class="bg-gray-800 bg-opacity-40 p-8 rounded">
+              <p class="leading-relaxed mb-6">"User Rating 1"</p>
+              <div class="flex items-center">
+                <img src="/assets/img/peepo.jpg" alt="XRats" class="w-10 h-10 rounded-full mr-4"/> <!-- Replace with actual profile picture path -->
+                <h2 class="text-lg text-white">XRats</h2>
+              </div>
+            </div>
+          </div>
+          
+          <div class="swiper-slide">
+            <div class="bg-gray-800 bg-opacity-40 p-8 rounded">
+              <p class="leading-relaxed mb-6">"User Rating 2 "</p>
+              <div class="flex items-center">
+                <img src="/assets/img/sigma.jpeg" alt="Sam" class="w-10 h-10 rounded-full mr-4"/> <!-- Replace with actual profile picture path -->
+                <h2 class="text-lg text-white">Sam</h2>
+              </div>
+            </div>
+          </div>
+          
+          <div class="swiper-slide">
+            <div class="bg-gray-800 bg-opacity-40 p-8 rounded">
+              <p class="leading-relaxed mb-6">"User Rating 3"</p>
+              <div class="flex items-center">
+                <img src="/assets/img/mod.jpg" alt="Tim" class="w-10 h-10 rounded-full mr-4"/> <!-- Replace with actual profile picture path -->
+                <h2 class="text-lg text-white">Tim</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+
+ 
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  
+  <script>
+    var swiper = new Swiper('.mySwiper', {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+  
+
+
+
+
+
+    
+    <footer class="bg-gray-800 text-white">
+      <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center">
+              <i class="fas fa-music fa-lg mr-2 text-blue-500"></i>
+              <span class="ml-3 text-xl">Leqit Music Bot</span>
+          </a>
+          <p class="text-sm text-gray-400 sm:ml-6 sm:mt-0 mt-4">© 2024 Leqit Music Bot — All rights reserved</p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            
+          </span>
+      </div>
+  </footer>
+
+   
+   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.0/dist/aos.js"></script>
+   <script>
+       AOS.init({
+         duration: 800, 
+         easing: 'ease',
+         once: true, 
+         mirror: false 
+       });
+
+       VanillaTilt.init(document.querySelectorAll(".tilt-effect"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 0.5
+    });
+
+
+   </script>
+
+</body>
+</html>
