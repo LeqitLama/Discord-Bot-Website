@@ -1,12 +1,12 @@
 # Discord Bot Website Template
 
-![Project Image](https://via.placeholder.com/1000x300.png?text=Discord+Bot+Website+Template)
+![Project Image](https://files.catbox.moe/n03rwx.PNG)
 
 > A modern, responsive, and customizable website template for your Discord Bot.
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](#)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](#)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](#)
+
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](1.0)
+
 
 This template is designed to help you launch your Discord bot with a professional-looking website in no time. It's built with ease of use and customization in mind, ensuring you can adapt it to fit your bot's branding and functionality without any hassle.
 
