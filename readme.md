@@ -39,9 +39,9 @@ This template is designed to help you launch your Discord bot with a professiona
 Here are some of the features and improvements we're planning for the future:
 
 - [x] Initial release with all need functionality
-- [ ] **v2.0.0 Features** - Planned for Q3 2024
+- [ ] **v2.0.0 Features** - When we hit 30 Stars!
   - [ ] Multi-language support
-  - [ ] Dark Mode?
+  - [ ] Dark Mode
 - [x] **Performance Enhancements** - Ongoing
   - [x] Reduce page load time
   - [x] Optimize image assets
