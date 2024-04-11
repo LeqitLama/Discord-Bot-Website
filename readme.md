@@ -10,18 +10,32 @@
 
 This template is designed to help you launch your Discord bot with a professional-looking website in no time. It's built with ease of use and customization in mind, ensuring you can adapt it to fit your bot's branding and functionality without any hassle.
 
+**Table of Contents**
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Customizing](#customizing)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
 ## Features
 
-- **Responsive Design:** Looks great on both desktop and mobile devices.
-- **Easy Customization:** Customize colors, fonts, and layout to match your bot's theme.
-- **SEO Friendly:** Optimized for search engines to help your bot get discovered.
-- **User Friendly:** Easy Setup with even no code knowledge.
+🖥 **Responsive Design:** Looks great on both desktop and mobile devices.
+
+⚙️ **Easy Customization:** Customize colors, fonts, and layout to match your bot's theme.
+
+🔍 **SEO Friendly:** Optimized for search engines to help your bot get discovered.
+
+🤖 **Integration Ready:** Easy integration with Discord APIs and bot commands.
 
 ## Getting Started
 
 ### Prerequisites
 
-- Basic knowledge of HTML/CSS for customization.
+- Basic /- No knowledge of HTML/CSS for customization.
 - Web hosting or GitHub Pages to deploy the website.
 
 ### Installation
