@@ -4,6 +4,11 @@
 
 > A modern, responsive, and customizable website template for your Discord Bot.
 
+## Live Demo
+
+Check out the live demo here: [Live Demo](http://leqit.de/leqitmusic)
+
+
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](1.0)
 
