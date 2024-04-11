@@ -29,7 +29,7 @@
             display: inline-block;
             font-size: 2rem;
             margin-right: 0.5rem;
-            color: #f59e0b; /* Tailwind orange-500 */
+            color: #f59e0b; 
         }
 
         .underline-effect {
@@ -40,18 +40,18 @@
 .underline-effect::after {
     content: '';
     position: absolute;
-    bottom: -5px; /* Adjust the distance from the text */
+    bottom: -5px; 
     left: 0;
     width: 100%;
-    height: 3px; /* Thickness of the underline */
-    background: #2563eb; /* Blue color */
-    border-radius: 5px; /* Adds curvature to the underline */
+    height: 3px; 
+    background: #2563eb; 
+    border-radius: 5px; 
     transition: width 0.3s ease-in-out;
 }
 
 .underline-effect:hover::after {
-    width: 110%; /* Optional: Increase width on hover for a dynamic effect */
-    left: -5%; /* Center the extended line */
+    width: 110%; 
+    left: -5%; 
 }
 
 .red-underline {
@@ -62,18 +62,18 @@
 .red-underline::after {
     content: '';
     position: absolute;
-    bottom: -5px; /* Adjust the vertical position of the underline */
+    bottom: -5px; 
     left: 0;
     width: 100%;
-    height: 2px; /* Thickness of the underline */
-    background-color: rgb(223, 134, 0); /* Color of the underline */
-    border-radius: 1px; /* Optional: Adds a slight curve to the corners */
-    transition: all 0.3s ease-in-out; /* Smooth transition for any changes */
+    height: 2px; 
+    background-color: rgb(223, 134, 0); 
+    border-radius: 1px; 
+    transition: all 0.3s ease-in-out;
 }
 
 .red-underline:hover::after {
-    width: 110%; /* Optional: Increase width on hover for a dynamic effect */
-    left: -5%; /* Center the extended line */
+    width: 110%; 
+    left: -5%; 
 }
 
 
